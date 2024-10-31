@@ -1,0 +1,15 @@
+[package]
+name = "webdriver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fantoccini = {workspace = true, features = ["rustls-tls"]} 
+tokio = { workspace = true,features = ["full"]}
+serde = { workspace = true,features = ["derive"]}
+serde_json = { workspace = true}
+cookie = { workspace = true}
+reqwest = { workspace = true}
+futures = { workspace = true}
+regex = {workspace = true}
+indicatif = { workspace = true }
